@@ -1,0 +1,452 @@
+/*general aspect*/
+body {
+    font-family: "Comic Sans MS", sans-serif, georgia, arial;
+    background-color: azure;
+}
+
+
+/*  design of #header 
+    added a background image
+*/
+
+#header{
+    width: 100%;
+    height: 45px;
+    margin-top:0;
+    text-align: center;
+       
+}
+
+.image2{
+    height: 250px;
+    background-image: url(design1_image1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black; 
+       
+}
+
+
+/*design of #pagetitle h2: heading of each page(home, about, contact)*/
+
+#pagetitle {
+    width:100%;
+    margin-top: -5px;
+    
+      
+}
+
+#pagetitle h2{
+    color: black;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 4px solid black;
+    margin: 0;
+    
+}
+
+/*design of #logo (which is inside #pagetitle) */
+#logo{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top:2px;
+    right: 10px;
+    
+    
+}
+
+
+/*links */
+
+a:link{
+    color:cornflowerblue;
+}
+a:visited{
+    color:cornflowerblue;
+    text-decoration: underline;
+}
+a:hover{
+    color:cornflowerblue;
+}
+
+
+/*design of #menu */
+
+#menu{
+    width: 100%;
+    padding: 0;
+    position:absolute;
+    left: -25px;
+    top:8.5vh;
+    
+} 
+
+nav ul li {
+    display:inline;
+    
+    
+    
+}
+
+#menu li a{
+    color:white;
+    border-color: black;
+    border-style: ridge;
+    background-color: cadetblue;
+    
+}
+
+
+#menu a{
+    text-decoration: none;
+}
+
+#menu .activo{
+   background-color: steelblue;
+    
+}
+
+
+/*design of #bodycontent */
+#bodycontent{
+    position: absolute;
+    top: 390px;
+    padding-left: 350px;
+    margin-bottom: 50px;
+    
+}
+
+.home p{
+    padding-left: 32px;
+    font-size: 1em;
+} 
+
+.home h3{
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+
+.about p{
+    padding-left: 20px;
+}
+
+.homesideimage{
+    
+    position: absolute;
+    top: 400px;
+    width: 250px;
+    float:left;
+    height: 300px;
+    background-image: url(soccer_image3.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+   
+}
+
+.aboutsideimage{
+    
+    position: absolute;
+    top: 380px;
+    width: 250px;
+    float:left;
+    height: 400px;
+    background-image: url(soccer_image2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+   
+}
+
+.contactsideimage{
+    
+    position: absolute;
+    top: 380px;
+    width: 120px;
+    float:left;
+    height: 120px;
+    background-image: url(email.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+    margin-left: 150px;
+   
+}
+
+
+
+/* game_info page - general design*/
+
+#gameinformationtitle{
+    text-align: left;
+    padding-top: 50px;
+}
+
+#fallschedule h3{
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+#fallschedule p{
+    margin-left: 25px;
+    text-decoration: underline;
+}
+
+#menugameinfo{
+    position:absolute;
+    top:-50px;
+    width:100%;
+}
+
+/*tables from game_info page*/
+
+table{
+    margin-left: 25px;
+}
+
+table thead th{
+    text-decoration: underline;
+    text-align: left;
+    padding-right: 45px;
+}
+
+table tbody td{
+    text-align: left;
+    vertical-align: middle;
+    padding-right: 30px;
+}
+
+table .col1{
+    text-align: center;
+}
+
+#octoberschedule{
+    margin-top: 30px;
+}
+
+/*game locations table*/
+
+#gamelocations{
+    
+    margin-top: 25px;
+}
+
+#gamelocations thead th {
+    text-decoration: underline;
+    padding-bottom: 17px;
+}
+
+#gamelocations #schoolname{
+    text-decoration: underline;
+}
+
+
+/*facility type*/
+
+#facilitytype{
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+/*additional information*/
+
+.additionalinfo{
+    width: 700px;
+    margin-top: 17px;
+    margin-left: 25px;
+}
+
+/*contact information*/
+
+#contactinfo{
+    margin-top: 17px;
+    
+}
+#contactinfo .col2{
+    padding-left: 150px;
+}
+
+
+
+
+/*rules page*/
+
+/*rules title*/
+
+.rulestitle{
+    text-align: center;
+    padding-left: 50px;
+   
+}
+
+#rulestitle{
+    margin-top: 80px;
+}
+
+
+/*rules menu*/
+#menurules{
+    position:absolute;
+    top:-50px;
+    width:100%;
+}
+
+/*rules body*/
+
+.bodytext{
+    margin-left: 25px;
+    
+}
+
+.bodytext ul{
+    list-style-type: square;
+}
+
+
+#fifaregulations ol li{
+    padding-bottom: 15px;
+}
+
+#fifaregulations .fieldsused ol, .teambench ol{
+    list-style-type: lower-alpha;
+    
+}
+
+#secondli{
+    list-style-type:circle;
+}
+
+
+
+/* registration form*/
+
+/* menu from registration */
+
+#menuregistration{
+    position:absolute;
+    width:600px;
+    top:-46px;
+    margin-left: 725px;
+}
+
+
+/*general design of registration form*/
+h2{
+    text-align:left;
+    margin-left: 28px;
+    padding-bottom: 10px;
+}
+
+form{
+    margin-left: 25px;
+}
+
+label{
+    padding: 10px;
+}
+
+fieldset{
+    width: 430px;
+    
+}
+p{
+    line-height: 30px;
+}
+
+/*player info - registration form*/
+.playerinfo label{
+    display: block;
+}
+
+.playerinfo{
+    border: 2px solid darkgrey;
+    width:220px;
+    margin-bottom: 30px;
+}
+
+/*gender - registration form*/
+
+.gender{
+    border: 2px solid darkgrey;
+    width: 220px;
+}
+#female1 {
+    position: absolute;
+    top:530px;
+    left: 104px;
+}
+#male1{
+    position:absolute;
+    top:555px;
+    left: 104px;
+}
+
+
+/*grade - registration form*/
+
+#grade{
+    display: block;
+    border: 2px solid darkgrey;
+}
+
+
+/*parent info - registration form*/
+#parentinfo{
+    border: 2px solid darkgrey;
+    width:220px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#parentinfo label{
+    display: block;
+    padding-top: 20px;
+}
+
+/* uniform - registration form */
+#uniform{
+    border: 2px solid darkgrey;
+    padding-left:15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    width:220px;
+}
+    
+
+/*permission to play - registration form*/
+
+#permissiontoplay{
+    width:1200px;
+    margin-bottom: 30px;
+}
+
+#permissiontoplaytitle{
+   text-decoration: underline;
+}
+
+/*signature - registration form*/
+
+#signature{
+    border: 2px solid darkgrey;
+    padding: 15px;
+    width: 380px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#submit{
+    padding:10px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: -20px;
+    background-color: cadetblue;
+    font-weight: bold;
+    
+    
+}
